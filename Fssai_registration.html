@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>  
+    <main >
+        <div class="box" id="formContainer">
+            <button class="close-button" onclick="closeForm()"><img src="./assets/x-button.png" style="padding: 10px;"></button>
+            <div class="users">
+                <div class="user1">
+                 <button class="user_nav">  <img src="./assets/tiffin-img.png" class="icons_" style="background-color: black;"></button> 
+                    <!-- <div class="username"><a href="#" class="all" >tiffin walla</a></div> -->
+                </div>
+                <div class="user1" >
+                    <button class="user_nav">   <img src="./assets/Chef-img.png"class="icons_" ></button>
+                    <!-- <div class="username"><a href="#" class="all">Master chef</a></div> -->
+                </div><div class="user1">
+                    <button class="user_nav">   <img src="./assets/vendor-img.png" class="icons_"></button>
+                    <!-- <div class="username"><a href="#" class="all">Sreet vendor</a></div> -->
+                </div><div class="user1">
+                    <button class="user_nav">     <img src="./assets/Group 12183.png" class="icons_"></button>
+                    <!-- <div class="username"><a href="#" class="all">RestroOwner</a></div> -->
+                </div>
+            </div>
+
+            <div class="lowerpart">
+                <div class="formbox" >
+                    <h1 class="heading1" >New account</h1>
+                    <div class="content" style="color: white;">
+                        <p  class="hifoodie">Hii Foodie!!</p>
+                        <h1 class="welcome">Welcome to Samaadhaan</h1>
+                    </div>
+                    <div class="form">
+                            <div class="information" >
+                                <p>As per government guideline, food business cannot operate and receive online order based on a FSSAI application starting 1st july 2021. So if you have applied for a FSSAI license or registration, let it get registered first and get approved. till then the details will be auto saved.</p>
+                            </div>
+                        <form action="" >
+                            
+                                <div class="input-container">
+                                <input type="text" id="user1" autocomplete="off" required class="text-input">
+                                <label for="Registration Number" class="label" >Restaurant Name</label>
+                            </div>
+                            <div class="input-container">
+                                <input type="text" id="user1" autocomplete="off" required class="text-input">
+                                <label for="Owner full Name" class="label">Owner full Name</label>
+                            </div>
+                            <div class="input-container">
+                                <input type="text" id="user1" autocomplete="off" required class="text-input">
+                                <label for="Owner full Name" class="label" >Phone No.</label>
+                            </div>
+                            
+                            <div class="facility"><input type="checkbox"class="checkboxcontent" >
+                            <h5 class ="questions">Delivery facility available ?</h5></div>
+                            
+                        </form>
+                    </div>
+                    
+                   <button class ="nextbutton" >Next</button>
+                    
+
+                </div>
+
+                <div class="imagebox" style="height: 450px; margin-top: 20px;">
+                    <img src="./assets/Group 144.png">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <button onclick="closeForm()">Toggle Form</button>
+<script>
+function closeForm() {
+            var formContainer = document.getElementById('formContainer');
+            formContainer.classList.add('hidden');
+        };
+    </script>
+</body>
+</html>

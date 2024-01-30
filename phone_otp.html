@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main>
+        <div class="box" id="formContainer">
+            <button class="close-button" onclick="closeForm()"><img src="./assets/x-button.png"></button>
+            <div class="users">
+                <div class="user1">
+                 <button class="user_nav">  <img src="./assets/tiffin-img.png" class="icons_" style="background-color: black;"></button> 
+                    <!-- <div class="username"><a href="#" class="all" >tiffin walla</a></div> -->
+                </div>
+                <div class="user1" >
+                    <button class="user_nav">   <img src="./assets/Chef-img.png"class="icons_" ></button>
+                    <!-- <div class="username"><a href="#" class="all">Master chef</a></div> -->
+                </div><div class="user1">
+                    <button class="user_nav">   <img src="./assets/vendor-img.png" class="icons_"></button>
+                    <!-- <div class="username"><a href="#" class="all">Sreet vendor</a></div> -->
+                </div><div class="user1">
+                    <button class="user_nav">     <img src="./assets/Group 12183.png" class="icons_"></button>
+                    <!-- <div class="username"><a href="#" class="all">RestroOwner</a></div> -->
+                </div>
+            </div>
+
+
+            <div class="lowerpart">
+                <div class="formbox">
+                    <h1 class="heading1" >OTP Verification</h1>
+                    
+                    <div class="form">
+                    
+
+                        <form action="">
+                           
+                               <p class="questions" style="margin-top: 60px;">
+                                Enter six digit verification code received on your mobile phone number <a href="" class="questions" style="color: #0038FF;">+91 9508120493 
+                                </a>via SMS. 
+                                </p>
+                            
+      <section class="container-fluid bg-body-tertiary d-block">
+                                <div class="row justify-content-left">
+                                    <div class="col-10 col-md-6 col-lg-4">
+                                        <div class="card bg-white mb-5 mt-5 border-0">
+                                            <div class="card-body p-5 text-center">
+                                               <!-- <p class="questions" style="margin-top: 30px;">Enter Otp</p> -->
+                                                <div class="otp-field mb-2" style="margin-top: 25px;">
+                                                    <input type="number" />
+                                                    <input type="number" />
+                                                    <input type="number" />
+                                                    <input type="number" />
+                                                    <input type="number" />
+                                                    <input type="number" />
+                                                </div>
+                                                
+                                              
+                        
+                                                <p class="questions" style="margin-top: 30px;">
+                                                    Having difficulty ? Contact us at <br><a href="" class="questions" style="color: #0038FF;">+91 9508120493 
+                                                    </a>  <a href="" class="questions" style="color: #0038FF;">sammadhaan@gamil.com
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        
+                            <!-- <button style="background-color: white; width: 40%;
+                            height: 9%;
+                            border-radius: 50px;
+                            margin-top: 10px;
+                            color: #555; /* Greyish color */
+                            font-size: 16px; /* Bigger font size */
+                            font-weight: bold;  id="otpTrigger">Trigger OTP</button> -->
+                    
+                        </form>
+                    </div>
+                    
+                   <button class="nextbutton" style="margin-top: 200px;">Resent OTP in 00:24</button>
+                    
+
+                </div>
+
+                <div class="imagebox">
+                    <img src="./assets/Group 144.png">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <button onclick="closeForm()">Toggle Form</button>
+<script>
+function closeForm() {
+            var formContainer = document.getElementById('formContainer');
+            formContainer.classList.add('hidden');
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main>
+        <div class="box" id="formContainer">
+            <button class="close-button" onclick="closeForm()"><img src="./assets/x-button.png"></button>
+            <div class="users">
+                <div class="user1">
+                 <button class="user_nav">  <img src="./assets/tiffin-img.png" class="icons_" style="background-color: black;"></button> 
+                    <!-- <div class="username"><a href="#" class="all" >tiffin walla</a></div> -->
+                </div>
+                <div class="user1" >
+                    <button class="user_nav">   <img src="./assets/Chef-img.png"class="icons_" ></button>
+                    <!-- <div class="username"><a href="#" class="all">Master chef</a></div> -->
+                </div><div class="user1">
+                    <button class="user_nav">   <img src="./assets/vendor-img.png" class="icons_"></button>
+                    <!-- <div class="username"><a href="#" class="all">Sreet vendor</a></div> -->
+                </div><div class="user1">
+                    <button class="user_nav">     <img src="./assets/Group 12183.png" class="icons_"></button>
+                    <!-- <div class="username"><a href="#" class="all">RestroOwner</a></div> -->
+                </div>
+            </div>
+
+
+            <div class="lowerpart">
+                <div class="formbox">
+                    <h1 class="heading1" >New account</h1>
+                    <div class="content" style="color: white;">
+                        <p  class="hifoodie">Hii Foodie!!</p>
+                        <h1 class="welcome">Welcome to Samaadhaan</h1>
+                    </div>
+                    <div class="form">
+                    
+
+                        <form action="">
+                            <div class="input-container">
+                                <input type="text" id="user1" autocomplete="off" required class="text-input" class="text-input">
+                                <label for="Registration Number" class="label" style="font-size: 1.2rem;">Full Name</label>
+                            </div>
+                            <div class="input-container">
+                                <input type="text" id="user1" autocomplete="off" required class="text-input" class="text-input">
+                                <label for="Registration Number" class="label" style="font-size: 1.2rem;">Phone No.</label>
+                            </div>
+      <section class="container-fluid bg-body-tertiary d-block">
+                                <div class="row justify-content-left">
+                                    <div class="col-10 col-md-6 col-lg-4">
+                                        <div class="card bg-white mb-5 mt-5 border-0">
+                                            <div class="card-body p-5 text-center">
+                                               <p class="questions">Enter Otp</p>
+                                                <div class="otp-field mb-2" style="margin-top: 25px;">
+                                                    <input type="number" />
+                                                    <input type="number" />
+                                                    <input type="number" />
+                                                    <input type="number" />
+                                                    <input type="number" />
+                                                    <input type="number" />
+                                                </div>
+                                                
+                                              
+                        
+                                                <p class="questions" style="margin-top: 30px;">
+                                                    Didn't receive code? <a href="" class="questions" style="color: #0038FF;">Request again</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        
+                            <!-- <button style="background-color: white; width: 40%;
+                            height: 9%;
+                            border-radius: 50px;
+                            margin-top: 10px;
+                            color: #555; /* Greyish color */
+                            font-size: 16px; /* Bigger font size */
+                            font-weight: bold;  id="otpTrigger">Trigger OTP</button> -->
+                    
+                        </form>
+                    </div>
+                    
+                   <button class="nextbutton" style="margin-top: 30px;">Resent OTP in 00:24</button>
+                    
+
+                </div>
+
+                <div class="imagebox">
+                    <img src="./assets/Group 144.png">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <button onclick="closeForm()">Toggle Form</button>
+<script>
+function closeForm() {
+            var formContainer = document.getElementById('formContainer');
+            formContainer.classList.add('hidden');
+        };
+    </script>
+</body>
+</html>
